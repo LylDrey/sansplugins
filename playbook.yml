@@ -1,5 +1,7 @@
+---
+
 - name: install nginx
-- hosts: all
-- become: yes
-- roles:
+  hosts: all
+  become: yes
+  roles:
     - nginxinc.nginx # utilisation du nginx contenu dans le fichier requierements.yml
