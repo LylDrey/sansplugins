@@ -2,3 +2,4 @@ all:
   hosts:
     172.20.10.5:
       ansible_user: lylle
+          ansible_ssh_private_key_file: /var/jenkins_home/.ssh/id_rsa
