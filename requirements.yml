@@ -1,0 +1,4 @@
+# requirements.yml
+---
+- src: nginxinc.nginx
+  version: "latest"
